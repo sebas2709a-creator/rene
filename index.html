@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial=1.0"
-        <title>Pagina Principal</title>
-    </head>
-    <body>
-        <h1 style="text-align: center; color: red ;">examen html</h1>
-        <h2>lista de paginas</h2>
-        <ul>
-            <li><a href="biografia.html">1. biografia</a></li>
-            <li><a href="hobbies.html">2. hobbies</a></li>
-            <li><a href="tabla.html">3. tabla html </a></li>
-            <li><a href="tim.html">4. quien es TIM</a></li>
-            <li><a href="imagenes.html">5. imagenes</a></li>
-            <li><a href="css.html">6. css</a></li>
-            <li><a href="formulario.html">7. formulario</a></li>
-
-        </ul>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/10maqueta.css">
+    <title>MAQUETA</title>
+</head>
+<body>
+    <header>
+        <h1>EXAMEN</h1>
+    </header>
+    <nav></nav>
+    <main>
+        <aside>
+            <a id="boton" href="biografia.html" target="marco-contenido">BIOGRAFIA</a>
+            <a id="boton" href="hobbies.html" target="marco-contenido">HOBBIES</a>
+            <a id="boton" href="tablas.html" target="marco-contenido">TABLA</a>
+            <a id="boton" href="quienestim.html" target="marco-contenido">TIM</a>
+            <a id="boton" href="css.html" target="marco-contenido">CSS</a>
+            <a id="boton" href="infografias.html" target="marco-contenido">INFOGRAFIAS</a>
+            <a id="boton" href="formulario.html" target="marco-contenido">FORMULARIO</a>
+        </aside>
+        <section>
+            <!-- Este iframe carga la biografía y demás páginas dentro del recuadro gris -->
+            <iframe name="marco-contenido" style="width: 100%; height: 100%; border: none;"></iframe>
+        </section>
+    </main>
+    <footer><h1>SEBAS TIROS</h1></footer>
+</body>
 </html>
